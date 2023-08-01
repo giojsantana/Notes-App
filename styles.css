@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+body {
+  background-color: #212f45;
+}
+
+.nav {
+  background-color: #272640;
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  font-size: 2rem;
+  padding: 1rem 2rem;
+  margin-bottom: 5rem;
+}
+.note-section,
+.note-section--edit {
+  width: 50%;
+  background-color: #654c6c;
+  color: #fff;
+  margin: auto;
+  margin-bottom: 5rem;
+  padding: 4rem;
+  border-radius: 2rem;
+}
+.textarea {
+  width: 100%;
+  margin-top: 2rem;
+}
+.title-div {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.title-input {
+  width: 50%;
+}
+.save-btn,
+.edit-btn {
+  padding: 1rem;
+  font-size: 1.5rem;
+  width: 7rem;
+}
+.note-title {
+  align-self: center;
+  font-size: 4rem;
+  width: 80%;
+  word-break: break-all;
+}
+.note-txt {
+  margin-top: 2rem;
+  font-size: 2rem;
+  word-break: break-all;
+}
+
+@media (max-width: 650px) {
+  .title-input {
+    width: 100%;
+  }
+}
